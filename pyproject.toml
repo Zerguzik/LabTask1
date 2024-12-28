@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "labproj"
+version = "0.1.0"
+description = "first task"
+authors = ["Zerguzik <124305395+Zerguzik@users.noreply.github.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.6"
+uvicorn = {extras = ["standart"], version = "^0.34.0"}
+black = "^24.10.0"
+sqlmodel = "^0.0.22"
+psycopg2 = "^2.9.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
